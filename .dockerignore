@@ -1,0 +1,48 @@
+# Version Control
+.git/
+.gitignore
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# MLflow Tracking & SQLite Local Databases
+mlruns/
+mlruns.db
+mlflow.db
+*.db
+*.db-journal
+
+# Prediction logs & local telemetry
+logs/
+*.log
+prediction_logs.jsonl
+
+# Testing, Linting & Coverage
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Raw training data & reports
+data/
+reports/
+docs/
+
+# Environment secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
